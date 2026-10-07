@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Charater Counter Project</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="header-card">
+                <h1>Charater Counter</h1>
+                <p>Type or paste your text below to analyze charset count in real life</p>
+            </div>
+            <div class="input-group">
+                <label for="text-input" class=".sr-only"></label>
+                <textarea id="text-input" placeholder="Start typing here..." maxlength="200" rows="6"></textarea>
+            </div>
+            <div class="min-card">
+                <div class="card1">
+                    <span id="total-chr">0</span><br>
+                    <strong>TOTAL CHARATER</strong>
+                </div>
+                <div class="card1">
+                    <span id="remaining">200</span><br>
+                    <strong>REMAINING</strong>
+                </div>
+                <div class="card1">
+                    <span id="total-word">0</span><br>
+                    <strong>WORDS</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+
+
+<!-- 
+- **Form Controls:** Managing multi-line inputs using `<textarea>` elements with built-in accessibility (`<label>` with `.sr-only` class) and HTML constraints 
+(`maxlength="200"`).
+- **Semantic Layout Structure:** Organizing application parts inside clear UI layout components (`<header>`, `<footer>`, `.stats-grid`). -->
